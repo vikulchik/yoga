@@ -1,0 +1,123 @@
+.footer {
+  padding: 65px 65px 25px 65px;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 1024px){
+   flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px){
+    padding: 30px 30px 25px 30px;
+  }
+
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+
+  @media screen and (max-width: 1024px){
+    flex-direction: column;
+  }
+}
+
+.footer_nav, .footer_copyright {
+  @media screen and (max-width: 1024px){
+    margin-bottom: 20px;
+  }
+}
+
+.footer_navigation {
+  width: 50%;
+  @media screen and (max-width: 1024px){
+    width: 100%;
+  }
+
+}
+
+.footer_description {
+  margin-bottom: 25px;
+  color: #011b26;
+  font-family: "AvenirNextLTProDem", sans-serif;
+  font-size: 25px;
+}
+
+.footer_item {
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 1024px){
+    display: inline-block;
+    margin-left: 20px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    @media screen and (max-width: 425px){
+     display: block;
+      margin-left: 0;
+    }
+  }
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #99a4a9;
+  font-size: 18px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer_copyright {
+  color: #99a4a9;
+  font-size: 18px;
+}
+
+.footer_download {
+  width: 40%;
+
+  @media screen and (max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.footer_text {
+  font-size: 18px;
+  width: 65%;
+
+  @media screen and (max-width: 425px){
+    width:100%;
+  }
+}
+
+.footer_img {
+  width: 135px;
+  height: 190px;
+
+  @media screen and (max-width: 425px){
+    width:100%;
+    margin-bottom: 10px;
+  }
+}
+
+.footer_information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+
+  @media screen and (max-width: 425px){
+    flex-direction: column;
+  }
+}
+
+.footer_time {
+  color: #99a4a9;
+  font-size: 25px;
+
+  @media screen and (max-width: 425px){
+    font-size: 18px;
+  }
+}

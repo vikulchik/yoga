@@ -1,0 +1,103 @@
+.aside {
+  width:10%;
+  background: #01161c;
+
+  @media screen and (max-width: 1024px){
+    width: 100%;
+  }
+}
+
+.aside_button-active, .aside_item {
+  box-sizing: border-box;
+  padding: 28px 28px 10px 28px;
+  text-align: center;
+}
+
+.aside_item {
+  display: none;
+}
+
+.aside_button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: #132132;
+  display: block;
+  position: relative;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 1024px){
+    margin: auto;
+  }
+}
+
+.icon-down-arrow {
+  fill: #fff;
+  width: 132px;
+  height: 42px;
+  position: absolute;
+  top: 21px;
+  left: -25px;
+}
+
+.aside_link {
+  fill: #748b94;
+  color: #748b94;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  padding-top: 80px;
+  display: block;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 1024px){
+    width: 20%;
+    margin: auto;
+  }
+
+  &:hover {
+    color: #b4cbd4;
+    fill: #b4cbd4;
+  }
+
+  &:active {
+    color: #ffffff;
+    fill: #fff;
+  }
+
+  .icon {
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    width: 137px;
+    height: 47px;
+    transform: translateX(-50%);
+  }
+}
+
+.aside_information-link {
+  margin-bottom: 22px;
+}
+
+.aside_information-user {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+
+  @media screen and (max-width: 1024px){
+    margin: auto;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.active-aside {
+  display: block;
+}
+
+
+
