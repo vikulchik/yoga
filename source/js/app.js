@@ -1,5 +1,4 @@
 ;(function () {
-    //$('select').select2();
 
     var button = document.querySelector('.aside_button'),
         aside = document.querySelector('.aside_item');

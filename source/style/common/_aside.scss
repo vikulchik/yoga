@@ -26,6 +26,10 @@
   position: relative;
   margin-bottom: 40px;
 
+  &:hover {
+    background: rgba(63, 81, 181, 0.62);
+  }
+
   @media screen and (max-width: 1024px){
     margin: auto;
   }
